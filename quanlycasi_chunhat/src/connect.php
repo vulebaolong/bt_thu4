@@ -1,5 +1,5 @@
 <?php
-    $connect = new mysqli('127.0.0.1','root','1234','quanlicasy2024');
+    $connect = new mysqli('127.0.0.1','root','1234','qlcs');
     if($connect->errno!== 0)
     {
         die("Error: Could not connect to the database. An error ".$connect->error." ocurred.");
